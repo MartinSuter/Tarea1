@@ -149,3 +149,5 @@ int main(){
     cout << img->height << endl;
     cout << img->width << endl;
 }
+
+//Hola Chavales
