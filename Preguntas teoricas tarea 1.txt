@@ -1,0 +1,22 @@
+1.-¿Por que si los pixeles de la imagen son numeros enteros ∈ [0, 255], utilizamos el tipo de dato
+    unsigned char?
+ 	
+	Utilizamos este tipo de dato, dado que el puntero unsigned char es un tipo de dato donde la variable consume 8 bits de la memoria (1 byte) y no hay un bit de signo.
+	Por lo tanto, significa que el tipo de dato unsigned char varia de 0 a 255, lo que es ideal en el caso del analizis de pixeles de una imagen los cuales son enteros
+	del 0 al 255.
+	https://www.geeksforgeeks.org/unsigned-char-in-c-with-examples/
+
+2.-¿Cuales serian las diferencias entre usar unsigned int versus unsigned char? Responder
+    cuantitativamente para una imagen RGB de dimensiones (N,N,3)
+	
+	
+
+3.- Usando este esquema de almacenamiento unidimensional: ¿Cual serıa el ındice del primer
+    pixel del canal azul?
+
+	
+
+4.-¿Como podemos convertir una imagen RGB a escala de grises?
+
+	Para convertir una imagen RGB en una a escala de grises, debemos multiplicar cada factor del RGB perteneciente a un pixel de la imagen por un numero especifico, 
+	r * 0.2989 (rojo), g * 0.5870 (verde) y b * 0.1140 (azul).
