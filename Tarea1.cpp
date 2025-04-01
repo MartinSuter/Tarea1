@@ -150,4 +150,6 @@ int main(){
     cout << img->width << endl;
 }
 
-//Hola Chavales
+
+//Hola
+//Que tal chavales
